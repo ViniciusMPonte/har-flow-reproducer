@@ -1,0 +1,17 @@
+{
+    "method": "GET",
+    "url": "https://example.com/api/test",
+    "headers": [
+        {
+            "name": "Accept",
+            "value": "application/json"
+        }
+    ],
+    "postData": null,
+    "queryString": [
+        {
+            "name": "q",
+            "value": "hello"
+        }
+    ]
+}

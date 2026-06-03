@@ -1,0 +1,7 @@
+{
+    "method": "GET",
+    "url": "https://example.com/api/base64",
+    "headers": [],
+    "postData": null,
+    "queryString": null
+}
