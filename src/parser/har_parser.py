@@ -46,7 +46,7 @@ class HARParser:
         )
 
         res_content_data = res_data["content"]
-        content_text = res_content_data["text"]
+        content_text = res_content_data.get("text", "")
         
         # T015: Detect base64 encoding and decode content
         if res_content_data.get("encoding") == "base64":
